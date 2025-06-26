@@ -1,0 +1,36 @@
+body
+{
+  background-color: black;
+  color: white;
+  font-family: Arial;
+}
+
+.buttons
+{
+  background-color: rgb(51, 51, 51);
+  color: white;
+  border: none;
+  height: 60px;
+  width: 60px;
+  border-radius: 50px;
+  font-size: 26px;
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+.clear-styles
+{
+  font-size: 17px;
+}
+
+.result
+{
+  font-size: 45px;
+  margin-top: 15px;
+  margin-bottom: 5px;
+}
+
+.operator-sign
+{
+  background-color: rgb(254, 160, 10);
+}
