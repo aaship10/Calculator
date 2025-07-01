@@ -30,7 +30,10 @@ function clearbutton()
 
 function backbutton()
 {
-  calculation = calculation.slice(0, (calculation.length-1));
+  if(calculation.slice(calculation.length-1, calculation.length) === ' ')
+    calculation = calculation.slice(0, (calculation.length-2));
+  else
+    calculation = calculation.slice(0, (calculation.length-1));
   document.querySelector('.js-result').innerHTML = calculation;
   saveCalculation();
 }
